@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/cobalt/:path*",
+      "destination": "https://api.cobalt.tools/api/:path*"
+    }
+  ]
+}
